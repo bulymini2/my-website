@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台北知名滷肉飯餐廳猜猜看</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            width: 660px;
+            height: 440px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer; /* 添加指示樣式 */
+        }
+
+        .item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover img {
+            transform: scale(1.1);
+        }
+
+        .title {
+            text-align: center;
+            font-size: 94px; /* 修改字體大小 */
+            color: #826039; /* 修改字體顏色 */
+            margin-bottom: 20px;
+            font-family: 'Georgia', Times, serif; /* 修改字體 */
+            text-shadow: -1px -1px 0 #faf9f9,  
+                         1px -1px 0 #f8f8f8,
+                        -1px  1px 0 #fcfbfb,
+                         1px  1px 0 #fdfafa; /* 添加邊框效果 */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">台北知名滷肉飯餐廳猜猜看</h1>
+    <div class="container">
+        <a href="sanYuan.html" class="item">
+            <img src="images/restaurant1.jpg" alt="三元號">
+        </a>
+        <a href="xiaoWangZhuGua.html" class="item">
+            <img src="images/restaurant2.jpg" alt="小王煮瓜">
+        </a>
+        <a href="jinDa.html" class="item">
+            <img src="images/restaurant3.jpg" alt="今大鲁肉飯">
+        </a>
+        <a href="beiBeiChe.html" class="item">
+            <img src="images/restaurant4.jpg" alt="北北車滷肉飯">
+        </a>
+        <a href="siJiJuLeBu.html" class="item">
+            <img src="images/restaurant5.jpeg" alt="司機俱樂部">
+        </a>
+        <a href="jinFengLuRouFan.html" class="item">
+            <img src="images/restaurant6.jpg" alt="金峰滷肉飯">
+        </a>
+        <a href="shiJiaMaYouYaoHua.html" class="item">
+            <img src="images/restaurant7.jpg" alt="施家麻油腰花">
+        </a>
+        <a href="fuBaWangZhuJiao.html" class="item">
+            <img src="images/restaurant8.jpg" alt="富霸王豬腳">
+        </a>
+        <a href="huangJiLuRouFan.html" class="item">
+            <img src="images/restaurant9.jpg" alt="黃記滷肉飯">
+        </a>
+        <a href="aiZaiCaiLuRouFan.html" class="item">
+            <img src="images/restaurant10.jpg" alt="矮仔財滷肉飯">
+        </a>
+    </div>
+</body>
+</html>
